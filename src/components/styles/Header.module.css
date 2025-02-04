@@ -1,0 +1,31 @@
+.header {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 0px 0px 15px;
+}
+.month {
+  color: #007aff;
+  font-size: xx-large;
+  font-weight: 400;
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+button {
+  color: #007aff;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+}
+button:hover {
+  color: rgba(92, 160, 219, 0.87);
+}
